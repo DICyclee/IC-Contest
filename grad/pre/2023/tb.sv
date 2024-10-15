@@ -40,11 +40,11 @@ LASER u_LASER(
 
 always begin #(`CYCLE/2) CLK = ~CLK; end
 
-initial begin
-   $fsdbDumpfile("LASER.fsdb");
-   $fsdbDumpvars();
-   $fsdbDumpMDA;
-end
+// initial begin
+//    $fsdbDumpfile("LASER.fsdb");
+//    $fsdbDumpvars();
+//    $fsdbDumpMDA;
+// end
 
 //initial begin
 //    $dumpvars();

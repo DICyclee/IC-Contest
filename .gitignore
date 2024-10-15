@@ -1,0 +1,7 @@
+**/csrc/
+**/simv.daidir/
+*.log
+*.svf
+**/simv
+*.fsdb
+*.key
